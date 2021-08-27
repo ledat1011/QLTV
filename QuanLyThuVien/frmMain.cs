@@ -59,7 +59,6 @@ namespace QuanLyThuVien
                         báoCáoToolStripMenuItem.Enabled = true;
                         cậpNhậtSáchToolStripMenuItem.Enabled = true;
                         cậpNhậtTácGiảToolStripMenuItem.Enabled = true;
-                        cậpNhậtToolStripMenuItem1.Enabled = true;
                         cậpNhậtLĩnhVựcToolStripMenuItem.Enabled = true;
                         cậpNhậtNhàXuấtBảnToolStripMenuItem.Enabled = true;
                         cậpNhậtThôngTinMượnToolStripMenuItem.Enabled = true;
@@ -79,7 +78,6 @@ namespace QuanLyThuVien
                         tìmKiếmSáchToolStripMenuItem.Enabled = true;
                         KiêmTratoolStripMenuItem1.Enabled = true;
                         tìmKiếmĐGToolStripMenuItem.Enabled = true;
-                        cậpNhậtToolStripMenuItem.Enabled = true;
                         mượnSáchToolStripMenuItem.Enabled = true;
                         báoCáoToolStripMenuItem.Enabled = true;
                         cậpNhậtSáchToolStripMenuItem.Enabled = true;
@@ -122,22 +120,23 @@ namespace QuanLyThuVien
         {
             try
             {
-                Con = new SqlConnection();
+                /*Con = new SqlConnection();
                 Con.ConnectionString = @"Data Source=DESKTOP-ONTGILH\SQLEXPRESS;Initial Catalog=Library;Integrated Security=True";
-                Con.Open();
+                Con.Open();*/
+                db.Database.Exists();
             }
             catch { MessageBox.Show("Không thể kết nối"); }
                 A = label1.Text;
                 B = label5.Text;
                 C = label6.Text;
-                D = label7.Text;
+              /*  D = label7.Text;*/
                 E = label8.Text;
-                F = label9.Text;
-                G = label10.Text;
-                label10.Text = "";
-                label9.Text = "";
+              /*  F = label9.Text;
+                G = label10.Text;*/
+               /* label10.Text = "";
+                label9.Text = "";*/
                 label8.Text = "";
-                label7.Text = "";
+               /* label7.Text = "";*/
                 label6.Text = "";
                 label5.Text = "";
                 label1.Text = "";
@@ -372,9 +371,15 @@ namespace QuanLyThuVien
             frmTaoTaiKhoan TAO = new frmTaoTaiKhoan();
             TAO.Show();
         }
-        private void timer4_Tick(object sender, EventArgs e)
+
+        private void grbDangNhap_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void timer4_Tick(object sender, EventArgs e)
+        {
+/*
             int d = 0, x;
             x = D.Length;
             d++;
@@ -384,7 +389,7 @@ namespace QuanLyThuVien
             if (d == x)
             {
                 timer4.Stop();
-            }
+            }*/
         }
 
         private void timer5_Tick(object sender, EventArgs e)
@@ -404,7 +409,7 @@ namespace QuanLyThuVien
 
         private void timer6_Tick(object sender, EventArgs e)
         {
-
+/*
             int d = 0, x;
             x = F.Length;
             d++;
@@ -414,11 +419,11 @@ namespace QuanLyThuVien
             if (d == x)
             {
                 timer6.Stop();
-            }
+            }*/
         }
         private void timer7_Tick(object sender, EventArgs e)
         {
-            int d = 0, x;
+          /*  int d = 0, x;
             x = G.Length;
             d++;
             string a = G.Substring(0, 1);
@@ -427,7 +432,7 @@ namespace QuanLyThuVien
             if (d == x)
             {
                 timer7.Stop();
-            }
+            }*/
         }
 
         private void đăngNhậpToolStripMenuItem_Click(object sender, EventArgs e)

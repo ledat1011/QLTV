@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -11,8 +12,10 @@ namespace QuanLyThuVien
 {
     public partial class frmcapnhatdocgia : Form
     {
+        private LibraryEntities db;
         public frmcapnhatdocgia()
         {
+            db = new LibraryEntities();
             InitializeComponent();
         }
     
@@ -22,28 +25,69 @@ namespace QuanLyThuVien
             cls.LoadData2DataGridView(dataGridView1,"select *from tblDocGia");           
         }
 
+        // create
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
-                string strInsert = "Insert Into tblDocGia(MADG,HOTEN,NGAYSINH,GIOITINH,LOP,DIACHI,EMAIL,GHICHU) values ('" + txtMADG.Text + "','" + txtHOTEN.Text + "','" + maskedTextBox1.Text + "','" + cboGioiTinh.Text + "','" + txtLOP.Text + "','" + txtDIACHI.Text + "','" + txtemail.Text + "','" + rtbGHICHU.Text + "')";
-                cls.ThucThiSQLTheoPKN(strInsert);
-                cls.LoadData2DataGridView(dataGridView1, "select *from tblDocGia");
+                /*                string strInsert = "Insert Into tblDocGia(MADG,HOTEN,NGAYSINH,GIOITINH,LOP,DIACHI,EMAIL,GHICHU) " +
+                                    "values ('" + txtMADG.Text + "','" + txtHOTEN.Text + "','"
+                                    + maskedTextBox1.Text + "','" + cboGioiTinh.Text + "','" +
+                                    txtLOP.Text + "','" + txtDIACHI.Text + "','" + txtemail.Text +
+                                    "','" + rtbGHICHU.Text + "')";
+                                cls.ThucThiSQLTheoPKN(strInsert);*/
+                tblDocGia newDocGia = new tblDocGia()
+                {
+                    MADG = txtMADG.Text,
+                    HOTEN = txtHOTEN.Text,
+                    NGAYSINH = maskedTextBox1.Text,
+                    GIOITINH = cboGioiTinh.Text,
+                    LOP = txtLOP.Text,
+                    DIACHI = txtDIACHI.Text,
+                    EMAIL = txtemail.Text,
+                    GHICHU = rtbGHICHU.Text,
+                    
+                };
+                db.tblDocGias.Add(newDocGia);
+                db.SaveChanges();
+                this.reloadDataGridView();
+               /* cls.LoadData2DataGridView(dataGridView1, "select *from tblDocGia");*/
                 MessageBox.Show("Thêm thành công");
             }
-            catch { MessageBox.Show("Trùng Mã"); };           
+            catch (Exception ex) {
+                MessageBox.Show(ex.GetBaseException().Message);
+            };           
         }
 
+        private void reloadDataGridView()
+        {
+            db.tblDocGias.Load();
+            dataGridView1.DataSource = db.tblDocGias.Local.ToBindingList();
+        }
+        //delete
         private void button3_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Bạn có muốn xóa không?(Y/N)", "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 try
                 {
-                    string strDelete = "Delete from tblDocGia where MADG='" + txtMADG.Text + "'";
-                    cls.ThucThiSQLTheoKetNoi(strDelete);
-                    cls.LoadData2DataGridView(dataGridView1, "select *from tblDocGia");
-                    MessageBox.Show("Xóa thành công");
+                    /*    string strDelete = "Delete from tblDocGia where MADG='" + txtMADG.Text + "'";*/
+                    tblDocGia getDocGia = db.tblDocGias.SingleOrDefault(c => c.MADG == txtMADG.Text);
+                    if(getDocGia == null)
+                    {
+                        MessageBox.Show("Độc giả không tồn tại");
+                    }
+                    else
+                    {
+                        db.tblDocGias.Remove(getDocGia);
+                        db.SaveChanges();
+                        MessageBox.Show("Xóa thành công");
+                        /*      db.tblDocGias.Load();
+                              dataGridView1.DataSource = db.tblDocGias.Local.ToBindingList();*/
+                        this.reloadDataGridView();
+                    }
+                  
+                  
                 }
                 catch { MessageBox.Show("Phải xóa những thông tin liên quan đến nhà xuất bản này trước"); };
             }
@@ -60,12 +104,13 @@ namespace QuanLyThuVien
                 txtLOP.Text = dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString();
                 txtDIACHI.Text = dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
                 txtemail.Text = dataGridView1.Rows[e.RowIndex].Cells[6].Value.ToString();
-                rtbGHICHU.Text = dataGridView1.Rows[e.RowIndex].Cells[7].Value.ToString();
+                rtbGHICHU.Text = dataGridView1.Rows[e.RowIndex].Cells[7].Value.ToString() ;
             }
             catch { };
         }
         int dem = 0;
         string madg;
+        // update
         private void button2_Click(object sender, EventArgs e)
         {
             if (dem == 0)
