@@ -16,8 +16,10 @@ namespace QuanLyThuVien
 {
     public partial class frmBCDocGia : Form
     {
+        private LibraryEntities db;
         public frmBCDocGia()
         {
+            db = new LibraryEntities();
             InitializeComponent();
         }
         Class.clsDatabase cls = new QuanLyThuVien.Class.clsDatabase();
@@ -30,12 +32,13 @@ namespace QuanLyThuVien
         {
             if (radioButton1.Checked)
             {
+               /* dataGridView1.DataSource = db.Database.SqlQuery("")*/
                 cls.LoadData2DataGridView(dataGridView1,"select a.MADG,HOTEN, COUNT(*) as SoLanMuon from tblMuon a inner join tblDocGia b on a.MADG=b.MADG group by a.MADG,HOTEN ");
             }
             if (radioButton2.Checked)
             {
                 
-                cls.LoadData2DataGridView(dataGridView2,"select * from tblDocGia where MADG not in (select MADG from tblMuon)");
+                cls.LoadData2DataGridView(dataGridView1,"select * from tblDocGia where MADG not in (select MADG from tblMuon)");
             }
         }
     }

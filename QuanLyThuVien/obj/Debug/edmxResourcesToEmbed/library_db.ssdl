@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LibraryModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="tblDocGia">
+    <Key>
+      <PropertyRef Name="MADG" />
+    </Key>
+    <Property Name="MADG" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="HOTEN" Type="varchar" MaxLength="50" />
+    <Property Name="NGAYSINH" Type="varchar" MaxLength="50" />
+    <Property Name="GIOITINH" Type="varchar" MaxLength="50" />
+    <Property Name="LOP" Type="varchar" MaxLength="50" />
+    <Property Name="DIACHI" Type="varchar" MaxLength="50" />
+    <Property Name="EMAIL" Type="varchar" MaxLength="50" />
+    <Property Name="GHICHU" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tblLinhVuc">
+    <Key>
+      <PropertyRef Name="MaLv" />
+    </Key>
+    <Property Name="MaLv" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TenLv" Type="varchar" MaxLength="50" />
+    <Property Name="GhiChu" Type="varchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Library.dbo.tblMuon' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tblMuon">
+    <Key>
+      <PropertyRef Name="MADG" />
+      <PropertyRef Name="MASACH" />
+      <PropertyRef Name="SOPHIEUMUON" />
+      <PropertyRef Name="NGAYMUON" />
+      <PropertyRef Name="NGAYTRA" />
+    </Key>
+    <Property Name="MADG" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="MASACH" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="SOPHIEUMUON" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="NGAYMUON" Type="datetime" Nullable="false" />
+    <Property Name="NGAYTRA" Type="datetime" Nullable="false" />
+    <Property Name="XACNHANTRA" Type="varchar" MaxLength="50" />
+    <Property Name="GHICHU" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tblNhanVien">
+    <Key>
+      <PropertyRef Name="TaiKhoan" />
+    </Key>
+    <Property Name="TaiKhoan" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="MatKhau" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="QUYENHAN" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TENNV" Type="varchar" MaxLength="50" />
+    <Property Name="DiaChi" Type="varchar" MaxLength="50" />
+    <Property Name="DIENTHOAI" Type="varchar" MaxLength="50" />
+    <Property Name="EMAIL" Type="varchar" MaxLength="50" />
+    <Property Name="ChucVu" Type="varchar" MaxLength="50" />
+    <Property Name="Tuoi" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblNXB">
+    <Key>
+      <PropertyRef Name="MANXB" />
+    </Key>
+    <Property Name="MANXB" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TENNXB" Type="varchar" MaxLength="50" />
+    <Property Name="DIACHI" Type="varchar(max)" />
+    <Property Name="SODIENTHOAI" Type="varchar" MaxLength="50" />
+    <Property Name="GHICHU" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tblSach">
+    <Key>
+      <PropertyRef Name="MASACH" />
+    </Key>
+    <Property Name="MASACH" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TENSACH" Type="varchar" MaxLength="50" />
+    <Property Name="MATG" Type="varchar" MaxLength="50" />
+    <Property Name="MANXB" Type="varchar" MaxLength="50" />
+    <Property Name="MaLv" Type="varchar" MaxLength="50" />
+    <Property Name="NAMXB" Type="varchar" MaxLength="50" />
+    <Property Name="SOTRANG" Type="int" />
+    <Property Name="SOLUONG" Type="int" />
+    <Property Name="NGAYNHAP" Type="varchar" MaxLength="50" />
+    <Property Name="GHICHU" Type="varchar(max)" />
+    <Property Name="SOSACHHONG" Type="int" />
+  </EntityType>
+  <EntityType Name="tblTacGia">
+    <Key>
+      <PropertyRef Name="MATG" />
+    </Key>
+    <Property Name="MATG" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="TENTG" Type="varchar" MaxLength="50" />
+    <Property Name="GIOITINH" Type="varchar" MaxLength="50" />
+    <Property Name="DIACHI" Type="varchar(max)" />
+    <Property Name="GHICHU" Type="varchar(max)" />
+  </EntityType>
+  <Association Name="FK_tblMuon_tblDocGia">
+    <End Role="tblDocGia" Type="Self.tblDocGia" Multiplicity="1" />
+    <End Role="tblMuon" Type="Self.tblMuon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblDocGia">
+        <PropertyRef Name="MADG" />
+      </Principal>
+      <Dependent Role="tblMuon">
+        <PropertyRef Name="MADG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblMuon_tblSach">
+    <End Role="tblSach" Type="Self.tblSach" Multiplicity="1" />
+    <End Role="tblMuon" Type="Self.tblMuon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblSach">
+        <PropertyRef Name="MASACH" />
+      </Principal>
+      <Dependent Role="tblMuon">
+        <PropertyRef Name="MASACH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSach_tblLinhVuc">
+    <End Role="tblLinhVuc" Type="Self.tblLinhVuc" Multiplicity="0..1" />
+    <End Role="tblSach" Type="Self.tblSach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblLinhVuc">
+        <PropertyRef Name="MaLv" />
+      </Principal>
+      <Dependent Role="tblSach">
+        <PropertyRef Name="MaLv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSach_tblNXB">
+    <End Role="tblNXB" Type="Self.tblNXB" Multiplicity="0..1" />
+    <End Role="tblSach" Type="Self.tblSach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblNXB">
+        <PropertyRef Name="MANXB" />
+      </Principal>
+      <Dependent Role="tblSach">
+        <PropertyRef Name="MANXB" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSach_tblTacGia">
+    <End Role="tblTacGia" Type="Self.tblTacGia" Multiplicity="0..1" />
+    <End Role="tblSach" Type="Self.tblSach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblTacGia">
+        <PropertyRef Name="MATG" />
+      </Principal>
+      <Dependent Role="tblSach">
+        <PropertyRef Name="MATG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LibraryModelStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblDocGia" EntityType="Self.tblDocGia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblLinhVuc" EntityType="Self.tblLinhVuc" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblNhanVien" EntityType="Self.tblNhanVien" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblNXB" EntityType="Self.tblNXB" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblSach" EntityType="Self.tblSach" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblTacGia" EntityType="Self.tblTacGia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblMuon" EntityType="Self.tblMuon" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tblMuon].[MADG] AS [MADG], 
+    [tblMuon].[MASACH] AS [MASACH], 
+    [tblMuon].[SOPHIEUMUON] AS [SOPHIEUMUON], 
+    [tblMuon].[NGAYMUON] AS [NGAYMUON], 
+    [tblMuon].[NGAYTRA] AS [NGAYTRA], 
+    [tblMuon].[XACNHANTRA] AS [XACNHANTRA], 
+    [tblMuon].[GHICHU] AS [GHICHU]
+    FROM [dbo].[tblMuon] AS [tblMuon]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_tblMuon_tblDocGia" Association="Self.FK_tblMuon_tblDocGia">
+      <End Role="tblDocGia" EntitySet="tblDocGia" />
+      <End Role="tblMuon" EntitySet="tblMuon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblMuon_tblSach" Association="Self.FK_tblMuon_tblSach">
+      <End Role="tblSach" EntitySet="tblSach" />
+      <End Role="tblMuon" EntitySet="tblMuon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSach_tblLinhVuc" Association="Self.FK_tblSach_tblLinhVuc">
+      <End Role="tblLinhVuc" EntitySet="tblLinhVuc" />
+      <End Role="tblSach" EntitySet="tblSach" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSach_tblNXB" Association="Self.FK_tblSach_tblNXB">
+      <End Role="tblNXB" EntitySet="tblNXB" />
+      <End Role="tblSach" EntitySet="tblSach" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSach_tblTacGia" Association="Self.FK_tblSach_tblTacGia">
+      <End Role="tblTacGia" EntitySet="tblTacGia" />
+      <End Role="tblSach" EntitySet="tblSach" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

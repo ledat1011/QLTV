@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LibraryModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblDocGia">
+    <Key>
+      <PropertyRef Name="MADG" />
+    </Key>
+    <Property Name="MADG" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="HOTEN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NGAYSINH" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="GIOITINH" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LOP" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DIACHI" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="GHICHU" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tblMuons" Relationship="Self.FK_tblMuon_tblDocGia" FromRole="tblDocGia" ToRole="tblMuon" />
+  </EntityType>
+  <EntityType Name="tblLinhVuc">
+    <Key>
+      <PropertyRef Name="MaLv" />
+    </Key>
+    <Property Name="MaLv" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenLv" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="GhiChu" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tblSaches" Relationship="Self.FK_tblSach_tblLinhVuc" FromRole="tblLinhVuc" ToRole="tblSach" />
+  </EntityType>
+  <EntityType Name="tblNhanVien">
+    <Key>
+      <PropertyRef Name="TaiKhoan" />
+    </Key>
+    <Property Name="TaiKhoan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MatKhau" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="QUYENHAN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TENNV" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DiaChi" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DIENTHOAI" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ChucVu" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Tuoi" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblNXB">
+    <Key>
+      <PropertyRef Name="MANXB" />
+    </Key>
+    <Property Name="MANXB" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TENNXB" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DIACHI" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="SODIENTHOAI" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="GHICHU" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tblSaches" Relationship="Self.FK_tblSach_tblNXB" FromRole="tblNXB" ToRole="tblSach" />
+  </EntityType>
+  <EntityType Name="tblSach">
+    <Key>
+      <PropertyRef Name="MASACH" />
+    </Key>
+    <Property Name="MASACH" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TENSACH" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MATG" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MANXB" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MaLv" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NAMXB" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SOTRANG" Type="Int32" />
+    <Property Name="SOLUONG" Type="Int32" />
+    <Property Name="NGAYNHAP" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="GHICHU" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="SOSACHHONG" Type="Int32" />
+    <NavigationProperty Name="tblLinhVuc" Relationship="Self.FK_tblSach_tblLinhVuc" FromRole="tblSach" ToRole="tblLinhVuc" />
+    <NavigationProperty Name="tblNXB" Relationship="Self.FK_tblSach_tblNXB" FromRole="tblSach" ToRole="tblNXB" />
+    <NavigationProperty Name="tblMuons" Relationship="Self.FK_tblMuon_tblSach" FromRole="tblSach" ToRole="tblMuon" />
+    <NavigationProperty Name="tblTacGia" Relationship="Self.FK_tblSach_tblTacGia" FromRole="tblSach" ToRole="tblTacGia" />
+  </EntityType>
+  <EntityType Name="tblTacGia">
+    <Key>
+      <PropertyRef Name="MATG" />
+    </Key>
+    <Property Name="MATG" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TENTG" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="GIOITINH" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DIACHI" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="GHICHU" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tblSaches" Relationship="Self.FK_tblSach_tblTacGia" FromRole="tblTacGia" ToRole="tblSach" />
+  </EntityType>
+  <EntityType Name="tblMuon">
+    <Key>
+      <PropertyRef Name="MADG" />
+      <PropertyRef Name="MASACH" />
+      <PropertyRef Name="SOPHIEUMUON" />
+      <PropertyRef Name="NGAYMUON" />
+      <PropertyRef Name="NGAYTRA" />
+    </Key>
+    <Property Name="MADG" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MASACH" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SOPHIEUMUON" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NGAYMUON" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="NGAYTRA" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="XACNHANTRA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="GHICHU" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tblDocGia" Relationship="Self.FK_tblMuon_tblDocGia" FromRole="tblMuon" ToRole="tblDocGia" />
+    <NavigationProperty Name="tblSach" Relationship="Self.FK_tblMuon_tblSach" FromRole="tblMuon" ToRole="tblSach" />
+  </EntityType>
+  <Association Name="FK_tblMuon_tblDocGia">
+    <End Role="tblDocGia" Type="Self.tblDocGia" Multiplicity="1" />
+    <End Role="tblMuon" Type="Self.tblMuon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblDocGia">
+        <PropertyRef Name="MADG" />
+      </Principal>
+      <Dependent Role="tblMuon">
+        <PropertyRef Name="MADG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSach_tblLinhVuc">
+    <End Role="tblLinhVuc" Type="Self.tblLinhVuc" Multiplicity="0..1" />
+    <End Role="tblSach" Type="Self.tblSach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblLinhVuc">
+        <PropertyRef Name="MaLv" />
+      </Principal>
+      <Dependent Role="tblSach">
+        <PropertyRef Name="MaLv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSach_tblNXB">
+    <End Role="tblNXB" Type="Self.tblNXB" Multiplicity="0..1" />
+    <End Role="tblSach" Type="Self.tblSach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblNXB">
+        <PropertyRef Name="MANXB" />
+      </Principal>
+      <Dependent Role="tblSach">
+        <PropertyRef Name="MANXB" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblMuon_tblSach">
+    <End Role="tblSach" Type="Self.tblSach" Multiplicity="1" />
+    <End Role="tblMuon" Type="Self.tblMuon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblSach">
+        <PropertyRef Name="MASACH" />
+      </Principal>
+      <Dependent Role="tblMuon">
+        <PropertyRef Name="MASACH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSach_tblTacGia">
+    <End Role="tblTacGia" Type="Self.tblTacGia" Multiplicity="0..1" />
+    <End Role="tblSach" Type="Self.tblSach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblTacGia">
+        <PropertyRef Name="MATG" />
+      </Principal>
+      <Dependent Role="tblSach">
+        <PropertyRef Name="MATG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LibraryEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="tblDocGias" EntityType="Self.tblDocGia" />
+    <EntitySet Name="tblLinhVucs" EntityType="Self.tblLinhVuc" />
+    <EntitySet Name="tblNhanViens" EntityType="Self.tblNhanVien" />
+    <EntitySet Name="tblNXBs" EntityType="Self.tblNXB" />
+    <EntitySet Name="tblSaches" EntityType="Self.tblSach" />
+    <EntitySet Name="tblTacGias" EntityType="Self.tblTacGia" />
+    <EntitySet Name="tblMuons" EntityType="Self.tblMuon" />
+    <AssociationSet Name="FK_tblMuon_tblDocGia" Association="Self.FK_tblMuon_tblDocGia">
+      <End Role="tblDocGia" EntitySet="tblDocGias" />
+      <End Role="tblMuon" EntitySet="tblMuons" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSach_tblLinhVuc" Association="Self.FK_tblSach_tblLinhVuc">
+      <End Role="tblLinhVuc" EntitySet="tblLinhVucs" />
+      <End Role="tblSach" EntitySet="tblSaches" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSach_tblNXB" Association="Self.FK_tblSach_tblNXB">
+      <End Role="tblNXB" EntitySet="tblNXBs" />
+      <End Role="tblSach" EntitySet="tblSaches" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblMuon_tblSach" Association="Self.FK_tblMuon_tblSach">
+      <End Role="tblSach" EntitySet="tblSaches" />
+      <End Role="tblMuon" EntitySet="tblMuons" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSach_tblTacGia" Association="Self.FK_tblSach_tblTacGia">
+      <End Role="tblTacGia" EntitySet="tblTacGias" />
+      <End Role="tblSach" EntitySet="tblSaches" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,354 @@
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojResolveAssemblyReference.cache
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmBCTinhTrangSach.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmBCDocGia.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmDoiMatKhau.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatTG.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatsach.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatNXB.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatnhanvien.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatLv.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmKiemTraTTNhanVien.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmMain.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmTaoTaiKhoan.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmthongtinmuon.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmtimkiem.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmTimkiemDG.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttDocgia.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttLinhVuc.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttNXB.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttSach.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttTacgia.resources
+C:\Users\dell\Desktop\New folder (2)\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatdocgia.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojResolveAssemblyReference.cache
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmBCTinhTrangSach.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmBCDocGia.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatdocgia.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmDoiMatKhau.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatTG.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatsach.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatNXB.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatnhanvien.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatLv.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmKiemTraTTNhanVien.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmMain.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmTaoTaiKhoan.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmthongtinmuon.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmtimkiem.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmTimkiemDG.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttDocgia.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttLinhVuc.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttNXB.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttSach.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttTacgia.resources
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\dell\Desktop\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.ResolveComReference.cache
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojAssemblyReference.cache
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.ResolveComReference.cache
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmBCTinhTrangSach.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmBCDocGia.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatdocgia.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmDoiMatKhau.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatTG.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatsach.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatNXB.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatnhanvien.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatLv.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmKiemTraTTNhanVien.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmMain.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmTaoTaiKhoan.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmthongtinmuon.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmtimkiem.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmTimkiemDG.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttDocgia.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttLinhVuc.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttNXB.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttSach.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttTacgia.resources
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\EnvDTE.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\stdole.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\Microsoft.MSXML.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\zh-HANS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\zh-HANT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\zh-HANS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\zh-HANT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\zh-HANS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\zh-HANT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\zh-HANS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\bin\Debug\zh-HANT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\RdlCompile.cache
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\RdlCompile.compiled
+C:\Users\dell\Desktop\QuanLyThuVien2\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CopyComplete
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\EnvDTE.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\stdole.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.MSXML.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-HANS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-HANT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-HANS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-HANT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-HANS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-HANT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-HANS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-HANT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojAssemblyReference.cache
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.ResolveComReference.cache
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmBCTinhTrangSach.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmBCDocGia.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatdocgia.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmDoiMatKhau.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatTG.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatsach.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatNXB.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatnhanvien.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatLv.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmKiemTraTTNhanVien.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmMain.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmTaoTaiKhoan.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmthongtinmuon.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmtimkiem.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmTimkiemDG.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttDocgia.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttLinhVuc.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttNXB.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttSach.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttTacgia.resources
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CopyComplete
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\dell\Desktop\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\EnvDTE.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\stdole.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-HANS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-HANT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-HANS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-HANT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-HANS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-HANT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-HANS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\zh-HANT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.ResolveComReference.cache
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmBCTinhTrangSach.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmBCDocGia.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatdocgia.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmDoiMatKhau.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatTG.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatsach.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatNXB.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatnhanvien.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmcapnhatLv.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmKiemTraTTNhanVien.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmMain.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmTaoTaiKhoan.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmthongtinmuon.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmtimkiem.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmTimkiemDG.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttDocgia.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttLinhVuc.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttNXB.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttSach.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmttTacgia.resources
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CopyComplete
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\WindowsForm_hide\CODE_Đạt - Duy- Nam- Phước_17DTHC5\QuanLyThuVien\QuanLyThuVien\bin\Debug\EntityFramework.SqlServer.xml
