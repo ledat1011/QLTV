@@ -5,13 +5,16 @@ using System.Text;
 using System.Windows.Forms;
 using System.Data;
 using System.Data.SqlClient;
+using System.Configuration;
 
 namespace QuanLyThuVien.Class
 {
     class clsDatabase
     {
+        static string connectToDataBase = ConfigurationManager.AppSettings["connectToDataBase"];
         //Khai báo các chuỗi kết nối và các đối tượng
-        string strConnect = @"Data Source=DESKTOP-ONTGILH\SQLEXPRESS;Initial Catalog=Library;Integrated Security=True";
+        string strConnect =  connectToDataBase !=null
+            ?connectToDataBase: @"Data Source=DESKTOP-ONTGILH\SQLEXPRESS;Initial Catalog=Library;Integrated Security=True";
         SqlConnection sqlCon;
         SqlCommand sqlCom;
         SqlDataReader sqlRea;

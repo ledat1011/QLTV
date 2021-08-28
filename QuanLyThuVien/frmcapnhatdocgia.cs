@@ -59,7 +59,7 @@ namespace QuanLyThuVien
             };           
         }
 
-        private void reloadDataGridView()
+        private void reloadDataGridView( )
         {
             db.tblDocGias.Load();
             dataGridView1.DataSource = db.tblDocGias.Local.ToBindingList();
@@ -80,7 +80,7 @@ namespace QuanLyThuVien
                     else
                     {
                         db.tblDocGias.Remove(getDocGia);
-                        db.SaveChanges();
+                       /* db.SaveChanges();*/
                         MessageBox.Show("Xóa thành công");
                         /*      db.tblDocGias.Load();
                               dataGridView1.DataSource = db.tblDocGias.Local.ToBindingList();*/

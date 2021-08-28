@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -11,8 +12,12 @@ namespace QuanLyThuVien
 {
     public partial class frmtimkiem : Form
     {
+        private LibraryEntities db;
+
+
         public frmtimkiem()
         {
+            db = new LibraryEntities();
             InitializeComponent();
         }
         Class.clsDatabase cls = new QuanLyThuVien.Class.clsDatabase();
@@ -51,7 +56,10 @@ namespace QuanLyThuVien
             }
             else
             {
-                cls.LoadData2DataGridView(dataGridView1, "select*from tblSach where " + comboBox1.Text + " like'%" + textBox1.Text + "%'");
+                List<tblSach> listResult = db.tblSaches.SqlQuery("select*from tblSach where " + comboBox1.Text + " like'%" + textBox1.Text + "%'").ToList();
+                db.tblSaches.Load();
+                dataGridView1.DataSource = db.tblSaches.Local.ToBindingList();
+                /*  cls.LoadData2DataGridView(dataGridView1, "select*from tblSach where " + comboBox1.Text + " like'%" + textBox1.Text + "%'");*/
             }
             
         }
@@ -63,7 +71,10 @@ namespace QuanLyThuVien
 
         private void button3_Click(object sender, EventArgs e)
         {
-            cls.LoadData2DataGridView(dataGridView2, "select*from tblSach where MASACH like'%" + textBox2.Text + "%'or TENSACH like'%" + textBox3.Text + "%'or MATG like'%" + textBox4.Text + "%'or MANXB like'%" + textBox5.Text + "%'or MaLV like'%" + textBox7.Text + "%'or NAMXB='" + textBox6.Text + "'or SOLUONG='" + textBox8.Text + "'or NGAYNHAP='" + maskedTextBox1.Text + "'");
+            List<tblSach> listResult = db.tblSaches.SqlQuery("select * from tblSach where MASACH like'%" + textBox2.Text + "%'or TENSACH like'%" + textBox3.Text + "%'or MATG like'%" + textBox4.Text + "%'or MANXB like'%" + textBox5.Text + "%'or MaLV like'%" + textBox7.Text + "%'or NAMXB = '" + textBox6.Text + "'or SOLUONG = '" + textBox8.Text + "'or NGAYNHAP = '" + maskedTextBox1.Text + "'").ToList();
+            db.tblSaches.Load();
+            dataGridView1.DataSource = db.tblSaches.Local.ToBindingList();
+/*            cls.LoadData2DataGridView(dataGridView2, "select*from tblSach where MASACH like'%" + textBox2.Text + "%'or TENSACH like'%" + textBox3.Text + "%'or MATG like'%" + textBox4.Text + "%'or MANXB like'%" + textBox5.Text + "%'or MaLV like'%" + textBox7.Text + "%'or NAMXB='" + textBox6.Text + "'or SOLUONG='" + textBox8.Text + "'or NGAYNHAP='" + maskedTextBox1.Text + "'");*/
         }
 
         private void button4_Click(object sender, EventArgs e)

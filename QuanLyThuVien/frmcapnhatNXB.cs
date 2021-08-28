@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -11,8 +12,10 @@ namespace QuanLyThuVien
 {
     public partial class frmcapnhatNXB : Form
     {
+        private LibraryEntities db;
         public frmcapnhatNXB()
         {
+            db = new LibraryEntities();
             InitializeComponent();
         }
         Class.clsDatabase cls = new QuanLyThuVien.Class.clsDatabase(); 
@@ -21,31 +24,62 @@ namespace QuanLyThuVien
             cls.LoadData2DataGridView(dataGridView1, "select *from tblNXB");           
         }       
 
+        private void reloadDataGridView()
+        {
+            db.tblNXBs.Load();
+            dataGridView1.DataSource = db.tblNXBs.Local.ToBindingList();
+        }
+
+        //create
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
-                string strInsert = "Insert Into tblNXB(MANXB,TENNXB,DIACHI,SODIENTHOAI,GHICHU) values ('" + txtMANXB.Text + "','" + txtTENNXB.Text + "','" + txtDIACHI.Text + "','" + txtSODIENTHOAI.Text + "','" + rtbGHICHU.Text + "')";
-                cls.ThucThiSQLTheoPKN(strInsert);
-                cls.LoadData2DataGridView(dataGridView1, "select *from tblNXB");
+                /* string strInsert = "Insert Into tblNXB(MANXB,TENNXB,DIACHI,SODIENTHOAI,GHICHU) values ('" + txtMANXB.Text + "','" + txtTENNXB.Text + "','" + txtDIACHI.Text + "','" + txtSODIENTHOAI.Text + "','" + rtbGHICHU.Text + "')";
+                 cls.ThucThiSQLTheoPKN(strInsert);
+                 cls.LoadData2DataGridView(dataGridView1, "select *from tblNXB");*/
+
+                tblNXB createNXB = new tblNXB()
+                {
+                    MANXB = txtMANXB.Text,
+                    TENNXB = txtTENNXB.Text,
+                    DIACHI = txtDIACHI.Text,
+                    GHICHU = rtbGHICHU.Text,
+                    SODIENTHOAI = txtSODIENTHOAI.Text
+                };
+                db.tblNXBs.Add(createNXB);
+                db.SaveChanges();
+                this.reloadDataGridView();
                 MessageBox.Show("Thêm thành công");
             }
-            catch { MessageBox.Show("Trùng Mã"); };           
+            catch(Exception ex) { MessageBox.Show("Trùng Mã" + ex.Message); };           
         }
 
+        //delete
         private void button3_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Bạn có muốn xóa không?(Y/N)", "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 try
                 {
-                    string strDelete = "Delete from tblNXB where MANXB='" + txtMANXB.Text + "'";
-                    cls.ThucThiSQLTheoKetNoi(strDelete);
-                    cls.LoadData2DataGridView(dataGridView1, "select *from tblNXB");
-                    MessageBox.Show("Xóa thành công");
+                    /* string strDelete = "Delete from tblNXB where MANXB='" + txtMANXB.Text + "'";
+                     cls.ThucThiSQLTheoKetNoi(strDelete);
+                     cls.LoadData2DataGridView(dataGridView1, "select *from tblNXB");*/
+                    tblNXB getNXB = db.tblNXBs.SingleOrDefault(c => c.MANXB == txtMANXB.Text);
+                    if(getNXB == null)
+                    {
+                        MessageBox.Show("mã nhà xuất bản không tồn tại");
+                    }
+                    else
+                    {
+                        db.tblNXBs.Remove(getNXB);
+                        this.reloadDataGridView();
+                        MessageBox.Show("Xóa thành công");
+                    }
+                  
 
                 }
-                catch { MessageBox.Show("Phải xóa những thông tin liên quan đến nhà xuất bản này trước"); };
+                catch (Exception ex ) { MessageBox.Show("Phải xóa những thông tin liên quan đến nhà xuất bản này trước " +ex.Message); };
             }
         }
 
@@ -77,13 +111,34 @@ namespace QuanLyThuVien
             {
                 try
                 {
-                    string strUpdata = "Update tblNXB set MANXB='" + txtMANXB.Text + "',TENNXB='" + txtTENNXB.Text + "',DIACHI='" + txtDIACHI.Text + "',SODIENTHOAI='" + txtSODIENTHOAI.Text + "',GHICHU='" + rtbGHICHU.Text + "' where MANXB='" + manxb + "'";
+                   
+                    tblNXB getNXB = db.tblNXBs.SingleOrDefault(c => c.MANXB == txtMANXB.Text);
+                    if (getNXB == null)
+                    {
+                        MessageBox.Show("mã nhà xuất bản không tồn tại");
+                    }
+                    else
+                    {
+                        /* string strUpdata = "Update tblNXB set MANXB='" + txtMANXB.Text + "',TENNXB='" + txtTENNXB.Text + "',DIACHI='" + txtDIACHI.Text + "',SODIENTHOAI='" + txtSODIENTHOAI.Text + "',GHICHU='" + rtbGHICHU.Text + "' where MANXB='" + manxb + "'";
                     cls.ThucThiSQLTheoPKN(strUpdata);
-                    cls.LoadData2DataGridView(dataGridView1, "select *from tblNXB");
-                    button1.Enabled = true;
-                    button3.Enabled = true;
-                    dem = 0;
-                    MessageBox.Show("Sửa thành công");
+                    cls.LoadData2DataGridView(dataGridView1, "select *from tblNXB");*/
+                        /*  db.tblNXBs.Remove(getNXB);*/
+                        getNXB.DIACHI = txtDIACHI.Text;
+                        getNXB.GHICHU = rtbGHICHU.Text;
+                        getNXB.MANXB = txtMANXB.Text;
+                        getNXB.SODIENTHOAI = txtSODIENTHOAI.Text;
+
+                        db.SaveChanges();
+                         
+                        this.reloadDataGridView();
+
+                        button1.Enabled = true;
+                        button3.Enabled = true;
+                        dem = 0;
+                        MessageBox.Show("Sửa thành công");
+
+                    }
+                  
                 }
                 catch { MessageBox.Show("Trùng mã"); };
             }

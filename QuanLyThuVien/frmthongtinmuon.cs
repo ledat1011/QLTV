@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -11,9 +12,16 @@ namespace QuanLyThuVien
 {
     public partial class frmthongtinmuon : Form
     {
+        private LibraryEntities db;
         public frmthongtinmuon()
         {
+            db = new LibraryEntities();
             InitializeComponent();
+        }
+        private void reloadDataGridView()
+        {
+            db.tblMuons.Load();
+            dataGridView1.DataSource = db.tblMuons.Local.ToBindingList();
         }
         Class.clsDatabase cls = new QuanLyThuVien.Class.clsDatabase();
         private void muon_Load(object sender, EventArgs e)
@@ -22,6 +30,7 @@ namespace QuanLyThuVien
            // cls.LoadData2Combobox(comboBox1,"Select MASACH from tblSach");
             
         }
+        //create
         private void button1_Click(object sender, EventArgs e)
         {
             errorProvider1.SetError(txtMADG, "");
@@ -42,10 +51,32 @@ namespace QuanLyThuVien
             }
             //try
             //{
-            string strInsert = "Insert Into tblMuon(MADG,MASACH,SOPHIEUMUON,NGAYMUON,NGAYTRA,XACNHANTRA,GHICHU) values ('" + txtMADG.Text + "','" + txtMASACH.Text + "','" + txtSOPHIEU.Text + "','" + mktNGAYMUON.Text + "','" + mktNGAYTRA.Text + "','" + cboXACNHAN.Text + "','" + rtbGHICHU.Text + "')";
-                cls.ThucThiSQLTheoPKN(strInsert);
-                cls.LoadData2DataGridView(dataGridView1, "select *from tblMuon");
+            try
+            {
+                /* string strInsert = "Insert Into tblMuon(MADG,MASACH,SOPHIEUMUON,NGAYMUON,NGAYTRA,XACNHANTRA,GHICHU) values ('" + txtMADG.Text + "','" + txtMASACH.Text + "','" + txtSOPHIEU.Text + "','" + mktNGAYMUON.Text + "','" + mktNGAYTRA.Text + "','" + cboXACNHAN.Text + "','" + rtbGHICHU.Text + "')";
+                 cls.ThucThiSQLTheoPKN(strInsert);
+                 cls.LoadData2DataGridView(dataGridView1, "select *from tblMuon");*/
+
+                tblMuon newBorrow = new tblMuon()
+                {
+                    MADG = txtMADG.Text,
+                    MASACH = txtMASACH.Text,
+                    GHICHU = rtbGHICHU.Text,
+                    NGAYMUON = DateTime.Parse(mktNGAYMUON.Text),
+                    NGAYTRA = DateTime.Parse(mktNGAYTRA.Text),
+                    SOPHIEUMUON = txtSOPHIEU.Text,
+                    XACNHANTRA = cboXACNHAN.Text
+                };
+                db.SaveChanges();
+
+                this.reloadDataGridView();
+
                 MessageBox.Show("Thêm thành công");
+            } catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+              
             //}
             //catch { MessageBox.Show("Trùng Mã"); };
         }
@@ -54,10 +85,33 @@ namespace QuanLyThuVien
         {
             if (MessageBox.Show("Bạn có muốn xóa không?(Y/N)", "Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                string strDelete = "Delete from tblMuon where MADG='" + txtMADG.Text + "'";
-                cls.ThucThiSQLTheoKetNoi(strDelete);
-                cls.LoadData2DataGridView(dataGridView1, "select *from tblMuon");
-                MessageBox.Show("Xóa thành công !!!");
+                try
+                {
+                    tblMuon getBorrow = db.tblMuons.SingleOrDefault(c => c.MADG == txtMADG.Text);
+
+                    if (getBorrow == null)
+                    {
+                        MessageBox.Show("Mã độc giả không tồn tại");
+                    }
+                    else
+                    {
+                        /* string strDelete = "Delete from tblMuon where MADG='" + txtMADG.Text + "'";
+              cls.ThucThiSQLTheoKetNoi(strDelete);
+              cls.LoadData2DataGridView(dataGridView1, "select *from tblMuon");*/
+                        db.tblMuons.Remove(getBorrow);
+                        db.SaveChanges();
+                        this.reloadDataGridView();
+                        MessageBox.Show("Xóa thành công !!!");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.GetBaseException().Message);
+                }
+             
+              
+
+              
             }
         }
 
@@ -91,13 +145,35 @@ namespace QuanLyThuVien
                 {
                     try
                     {
-                        string strUpdate = "Update tblMuon set MADG='" + txtMADG.Text + "',MASACH='" + txtMASACH.Text + "',SOPHIEUMUON='" + txtSOPHIEU.Text + "',NGAYMUON='" + mktNGAYMUON.Text + "',NGAYTRA='" + mktNGAYTRA.Text + "',XACNHANTRA='" + cboXACNHAN.Text + "',GHICHU='" + rtbGHICHU.Text + "' where MADG='" + madg + "'";
-                        cls.ThucThiSQLTheoPKN(strUpdate);
-                        cls.LoadData2DataGridView(dataGridView1, "select *from tblMuon");
+                    tblMuon getBorrow = db.tblMuons.SingleOrDefault(c => c.MADG == txtMADG.Text);
+
+                    if (getBorrow == null)
+                    {
+                        MessageBox.Show("Mã độc giả không tồn tại");
+                    }
+                    else
+                    {
+                        /*          *string strUpdate = "Update tblMuon set MADG='" + txtMADG.Text + "',MASACH='" + txtMASACH.Text + "',SOPHIEUMUON='" + txtSOPHIEU.Text + "',NGAYMUON='" + mktNGAYMUON.Text + "',NGAYTRA='" + mktNGAYTRA.Text + "',XACNHANTRA='" + cboXACNHAN.Text + "',GHICHU='" + rtbGHICHU.Text + "' where MADG='" + madg + "'";
+                                  cls.ThucThiSQLTheoPKN(strUpdate);
+                                  cls.LoadData2DataGridView(dataGridView1, "select *from tblMuon");
+                                  button1.Enabled = true; */
+
+                        getBorrow.MADG = txtMADG.Text;
+                        getBorrow.MASACH = txtMASACH.Text;
+                        getBorrow.NGAYTRA = DateTime.Parse(mktNGAYTRA.Text);
+                        getBorrow.SOPHIEUMUON = txtSOPHIEU.Text;
+                        getBorrow.GHICHU = rtbGHICHU.Text;
+
+                        db.SaveChanges();
+                      
                         button1.Enabled = true;
                         button3.Enabled = true;
                         MessageBox.Show("Sửa thành công");
+                        this.reloadDataGridView();
                         dem = 0;
+                    }
+
+                  
                     }
                     catch { MessageBox.Show("Không thể sửa !!!"); };
                 }
