@@ -8,9 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using Excel = Microsoft.Office.Interop.Excel;
 using Microsoft.Office.Interop.Excel;
-
-
-
+using QuanLyThuVien.model;
 
 namespace QuanLyThuVien
 {

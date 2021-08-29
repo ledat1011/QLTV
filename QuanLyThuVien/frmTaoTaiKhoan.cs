@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyThuVien.model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -75,6 +76,8 @@ namespace QuanLyThuVien
                         MatKhau = txtXNMatKhau.Text,
                         QUYENHAN = "user"
                     };
+                    db.tblNhanViens.Add(newUser);
+                    db.SaveChanges();
                     MessageBox.Show("Tạo tài khoản thành công hãy cập nhật thông tin cho tài khoản");
                     this.Close();
                 }

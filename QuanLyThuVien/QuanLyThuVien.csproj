@@ -138,28 +138,21 @@
     <Compile Include="frmKiemTraTTNhanVien.designer.cs">
       <DependentUpon>frmKiemTraTTNhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="LibraryDataSet.Designer.cs" />
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMain.designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="library_db.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>library_db.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="library_db.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>library_db.tt</DependentUpon>
-    </Compile>
-    <Compile Include="library_db.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>library_db.edmx</DependentUpon>
-    </Compile>
+    <Compile Include="model\LibraryEntities.cs" />
+    <Compile Include="model\sysdiagram.cs" />
+    <Compile Include="model\tblDocGia.cs" />
+    <Compile Include="model\tblLinhVuc.cs" />
+    <Compile Include="model\tblMuon.cs" />
+    <Compile Include="model\tblNhanVien.cs" />
+    <Compile Include="model\tblNXB.cs" />
+    <Compile Include="model\tblSach.cs" />
+    <Compile Include="model\tblTacGia.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="frmTaoTaiKhoan.cs">
@@ -217,30 +210,6 @@
       <DependentUpon>frmttTacgia.cs</DependentUpon>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
-    <Compile Include="sysdiagram.cs">
-      <DependentUpon>library_db.tt</DependentUpon>
-    </Compile>
-    <Compile Include="tblDocGia.cs">
-      <DependentUpon>library_db.tt</DependentUpon>
-    </Compile>
-    <Compile Include="tblLinhVuc.cs">
-      <DependentUpon>library_db.tt</DependentUpon>
-    </Compile>
-    <Compile Include="tblMuon.cs">
-      <DependentUpon>library_db.tt</DependentUpon>
-    </Compile>
-    <Compile Include="tblNhanVien.cs">
-      <DependentUpon>library_db.tt</DependentUpon>
-    </Compile>
-    <Compile Include="tblNXB.cs">
-      <DependentUpon>library_db.tt</DependentUpon>
-    </Compile>
-    <Compile Include="tblSach.cs">
-      <DependentUpon>library_db.tt</DependentUpon>
-    </Compile>
-    <Compile Include="tblTacGia.cs">
-      <DependentUpon>library_db.tt</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="frmBCTinhTrangSach.resx">
       <DependentUpon>frmBCTinhTrangSach.cs</DependentUpon>
     </EmbeddedResource>
@@ -306,13 +275,6 @@
     <EmbeddedResource Include="frmttTacgia.resx">
       <DependentUpon>frmttTacgia.cs</DependentUpon>
     </EmbeddedResource>
-    <EntityDeploy Include="library_db.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>library_db.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="library_db.edmx.diagram">
-      <DependentUpon>library_db.edmx</DependentUpon>
-    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -361,16 +323,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bookshelf.ico" />
-    <Content Include="library_db.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>library_db.edmx</DependentUpon>
-      <LastGenOutput>library_db.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="library_db.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>library_db.edmx</DependentUpon>
-      <LastGenOutput>library_db.cs</LastGenOutput>
-    </Content>
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

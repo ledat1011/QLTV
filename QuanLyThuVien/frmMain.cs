@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Data.SqlClient;
 using System.Windows.Forms;
+using QuanLyThuVien.model;
 
 namespace QuanLyThuVien
 {
